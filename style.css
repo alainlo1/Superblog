@@ -1,0 +1,87 @@
+body{
+    width: 70%;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    background:#283747;
+    color: white;
+    /* background-image: url(img/pixel.jpg); */
+    /* background-position: fixed;
+    background-size: cover; */
+}
+.logo{
+    color: yellow;
+}
+strong{
+    margin-left: 50%;
+    color: yellow;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+li{
+    list-style: none;
+    display: flex;
+}
+
+nav{
+    
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    background-color:#5DADE2 ;
+}
+nav a {
+    padding-right: 10px;
+    
+}
+
+.adminbar a{
+    padding: 50px;
+}
+.card_art{
+    display: flex;
+    width: 500px;
+    padding: 20PX;
+}
+.card_com img{
+    width: 7%;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.card_com p{
+    margin-left:55px ;
+}
+.com_tt{
+    display: flex;
+    align-items: center;
+}
+.com_input label {
+    padding:5px;
+}
+
+button{
+    margin-left: 5px;
+    padding:10px ;
+    border-radius: 30px;
+    border:none;
+    color: white;
+    background-color: #5DADE2 ;
+}
+
+.article img{
+    height: 300px;
+    width: 500px;
+}
+.vue_article img{
+    margin-top: 50px;
+    height: 400px;
+    width: 700px;
+}
